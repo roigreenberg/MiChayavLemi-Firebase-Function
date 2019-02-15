@@ -3,3 +3,4 @@ deploy:
   provider: firebase
   token:
     secure: ""
+script: 'true'
