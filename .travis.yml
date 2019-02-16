@@ -3,6 +3,7 @@ node_js:
   - "node"
 script:
   - cd ./functions && npm install && npm install eslint --save-dev && npm i eslint-plugin-promise@latest --save-dev && cd -
+  - npm --prefix ./functions/ run lint
 deploy:
   skip_cleanup: true
   provider: firebase
