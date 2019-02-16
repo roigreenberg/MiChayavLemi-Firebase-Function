@@ -368,6 +368,7 @@ exports.deleteUserfromEvent = functions.firestore.document('/events/{eventID}/us
 
 exports.test = functions.https.onCall((data, context) => {
 	console.log(data, context);
+	#
 	return
 });
 
