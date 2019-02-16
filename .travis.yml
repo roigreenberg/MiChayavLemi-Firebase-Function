@@ -1,11 +1,6 @@
 language: node_js
 node_js:
   - "node"
-before_install:
-  - cd ./functions
-  - npm install eslint  --save-dev
-  - npm i eslint-plugin-promise@latest --save-dev
-  - cd ../
 script:
   -
 deploy:
